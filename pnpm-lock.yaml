@@ -18,8 +18,8 @@ importers:
         specifier: ^0.0.4
         version: 0.0.4
       '@jalyk/studio':
-        specifier: ^0.0.7
-        version: 0.0.7(@babel/core@8.0.1)(@babel/template@8.0.0)(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: ^0.0.8
+        version: 0.0.8(@babel/core@8.0.1)(@babel/template@8.0.0)(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@jalyk/ui':
         specifier: ^0.0.4
         version: 0.0.4(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
@@ -499,8 +499,8 @@ packages:
   '@jalyk/schema@0.0.4':
     resolution: {integrity: sha512-9ML+cDAolqt1un7OufxpRsf9eXZpRcAmgNzx12LXPgLkDXsy2D+3anFVirt7orehS32u92ICQWmNegzwlJoGsw==}
 
-  '@jalyk/studio@0.0.7':
-    resolution: {integrity: sha512-A1jqLPrzRUbLwXP7hywIbD3GTun6HSGE009G1V7gK83/RR+xhF347u7gskqjipVqp7p7nkWkf4hcJX7rbPvtYQ==}
+  '@jalyk/studio@0.0.8':
+    resolution: {integrity: sha512-KYi53C+A+KeMZ1RMFIproBaGmFTsCJGzbrSm30eF+SKEnDa7ULGvX0M33fvzw4qPCqMieC3iWowkXE45HfGtuQ==}
     peerDependencies:
       react: ^19.0.0
       react-dom: ^19.0.0
@@ -4302,7 +4302,7 @@ snapshots:
     dependencies:
       effect: 3.21.4
 
-  '@jalyk/studio@0.0.7(@babel/core@8.0.1)(@babel/template@8.0.0)(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@jalyk/studio@0.0.8(@babel/core@8.0.1)(@babel/template@8.0.0)(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
     dependencies:
       '@dnd-kit/core': 6.3.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@dnd-kit/modifiers': 9.0.0(@dnd-kit/core@6.3.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)

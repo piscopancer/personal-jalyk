@@ -14,7 +14,7 @@
     "@faker-js/faker": "^10.5.0",
     "@jalyk/client": "^0.0.6",
     "@jalyk/schema": "^0.0.4",
-    "@jalyk/studio": "^0.0.7",
+    "@jalyk/studio": "^0.0.8",
     "@jalyk/ui": "^0.0.4",
     "@tanstack/react-query": "^5.101.2",
     "@tanstack/react-router": "^1.170.16",
