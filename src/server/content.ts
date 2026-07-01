@@ -32,9 +32,11 @@ export class Content extends Context.Tag('Content')<
 >() {}
 
 // Адрес api задавать не нужно — он зашит дефолтом в @jalyk/client. Потребитель
-// сообщает лишь свой проект и read-ключ.
+// сообщает лишь свой проект и read-ключ. Id проекта не секрет (он и так в браузерном
+// бандле студии), поэтому берём общий VITE_JALYK_PROJECT_ID — vite.config кладёт все
+// переменные в process.env, так что серверный слой читает ту же, без дубля.
 const connection = Config.all({
-  projectId: Config.string('JALYK_PROJECT_ID'),
+  projectId: Config.string('VITE_JALYK_PROJECT_ID'),
   apiKey: Config.string('JALYK_CONTENT_API_KEY'),
 })
 
