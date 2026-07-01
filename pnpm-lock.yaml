@@ -12,17 +12,17 @@ importers:
         specifier: ^10.5.0
         version: 10.5.0
       '@jalyk/client':
-        specifier: ^0.0.6
-        version: 0.0.6
+        specifier: ^0.0.7
+        version: 0.0.7
       '@jalyk/schema':
-        specifier: ^0.0.4
-        version: 0.0.4
+        specifier: ^0.0.5
+        version: 0.0.5
       '@jalyk/studio':
-        specifier: ^0.0.8
-        version: 0.0.8(@babel/core@8.0.1)(@babel/template@8.0.0)(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: ^0.0.9
+        version: 0.0.9(@babel/core@8.0.1)(@babel/template@8.0.0)(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@jalyk/ui':
-        specifier: ^0.0.4
-        version: 0.0.4(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: ^0.0.5
+        version: 0.0.5(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@tanstack/react-query':
         specifier: ^5.101.2
         version: 5.101.2(react@19.2.7)
@@ -490,23 +490,23 @@ packages:
     resolution: {integrity: sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w==}
     engines: {node: '>=18.0.0'}
 
-  '@jalyk/client@0.0.6':
-    resolution: {integrity: sha512-q0jAVgJXoaGnlyqAjVK8Xx4PenxfZaue2rmkFIXtgq6uz9jW49dtmc5dCKOM9a5hESX2zrt/SX6mWeKW/qq6DA==}
+  '@jalyk/client@0.0.7':
+    resolution: {integrity: sha512-QTsvNt0uXNCiNa7X/LY9UGotT8JFzwAcS30R5vgHYQYoXegCJiuXuPFEYJW5OuMF+cmXTFQAW3RBU8GADEeuwQ==}
 
-  '@jalyk/contract@0.0.4':
-    resolution: {integrity: sha512-z7iXJ6lkth8n2TNJ0oyzy/XdfB25RPqQmnTYeEv17QqEBfpaDnbQbsweN1X2TPcqcNeEpnvyKt2PZnYBJrPo/w==}
+  '@jalyk/contract@0.0.5':
+    resolution: {integrity: sha512-23huZGRU7PxGEL+ypIygWg+z8V9t5bfFkhDC2f/zgI4FyfWX+9OHJmfNxHz2OpYYg/t43WliRmWFFqhLXt1fxw==}
 
-  '@jalyk/schema@0.0.4':
-    resolution: {integrity: sha512-9ML+cDAolqt1un7OufxpRsf9eXZpRcAmgNzx12LXPgLkDXsy2D+3anFVirt7orehS32u92ICQWmNegzwlJoGsw==}
+  '@jalyk/schema@0.0.5':
+    resolution: {integrity: sha512-AdS0FG/e2K+0Ly4AkGtFth1zH1Z/uPcn7r9o/FBvfOpLWclKtXvfLp2fsTL+LHxcclvqA22gz46owZrHWh8y3g==}
 
-  '@jalyk/studio@0.0.8':
-    resolution: {integrity: sha512-KYi53C+A+KeMZ1RMFIproBaGmFTsCJGzbrSm30eF+SKEnDa7ULGvX0M33fvzw4qPCqMieC3iWowkXE45HfGtuQ==}
+  '@jalyk/studio@0.0.9':
+    resolution: {integrity: sha512-PgFgUcHxRYja22iYG/wo8PFwv8yVvFTsCSxKXkg8VD+7yqyQ93BDS9qS6cQaugMArQksi1VwZAzF2rNXx9DXbA==}
     peerDependencies:
       react: ^19.0.0
       react-dom: ^19.0.0
 
-  '@jalyk/ui@0.0.4':
-    resolution: {integrity: sha512-0Ozy2tK/A11fvL/h6HCVi9fXh/kx0Y4PtmDRp4mxTcRic63gv7v/AXo+g2JGL4HNMlkdzGykYWDPgQ6GBqYoKA==}
+  '@jalyk/ui@0.0.5':
+    resolution: {integrity: sha512-XkTbLJ1AndACjRqgGQns1yxXU1IkEGHXxuf3gnmbgrAMpDLAfz7K4JpYdrwgVAd0/u4qhhS20HYDwAOsl5syOQ==}
     peerDependencies:
       react: ^19.0.0
 
@@ -4289,20 +4289,20 @@ snapshots:
     dependencies:
       minipass: 7.1.3
 
-  '@jalyk/client@0.0.6':
+  '@jalyk/client@0.0.7':
     dependencies:
-      '@jalyk/schema': 0.0.4
+      '@jalyk/schema': 0.0.5
 
-  '@jalyk/contract@0.0.4':
+  '@jalyk/contract@0.0.5':
     dependencies:
       '@effect/platform': 0.96.2(effect@3.21.4)
       effect: 3.21.4
 
-  '@jalyk/schema@0.0.4':
+  '@jalyk/schema@0.0.5':
     dependencies:
       effect: 3.21.4
 
-  '@jalyk/studio@0.0.8(@babel/core@8.0.1)(@babel/template@8.0.0)(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@jalyk/studio@0.0.9(@babel/core@8.0.1)(@babel/template@8.0.0)(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
     dependencies:
       '@dnd-kit/core': 6.3.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@dnd-kit/modifiers': 9.0.0(@dnd-kit/core@6.3.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)
@@ -4310,9 +4310,9 @@ snapshots:
       '@dnd-kit/utilities': 3.2.2(react@19.2.7)
       '@effect/platform': 0.96.2(effect@3.21.4)
       '@faker-js/faker': 10.5.0
-      '@jalyk/contract': 0.0.4
-      '@jalyk/schema': 0.0.4
-      '@jalyk/ui': 0.0.4(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      '@jalyk/contract': 0.0.5
+      '@jalyk/schema': 0.0.5
+      '@jalyk/ui': 0.0.5(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@tanstack/react-query': 5.101.2(react@19.2.7)
       date-fns: 4.4.0
       effect: 3.21.4
@@ -4329,7 +4329,7 @@ snapshots:
       - '@types/react'
       - '@types/react-dom'
 
-  '@jalyk/ui@0.0.4(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@jalyk/ui@0.0.5(@date-fns/tz@1.5.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
     dependencies:
       '@base-ui/react': 1.6.0(@date-fns/tz@1.5.0)(@types/react@19.2.17)(date-fns@4.4.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       class-variance-authority: 0.7.1
