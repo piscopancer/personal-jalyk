@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "@faker-js/faker": "^10.5.0",
-    "@jalyk/client": "^0.0.7",
+    "@jalyk/client": "^0.0.8",
     "@jalyk/schema": "^0.0.5",
-    "@jalyk/studio": "^0.0.9",
+    "@jalyk/studio": "^0.0.10",
     "@jalyk/ui": "^0.0.5",
     "@tanstack/react-query": "^5.101.2",
     "@tanstack/react-router": "^1.170.16",
